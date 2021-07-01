@@ -5,7 +5,7 @@ cd $(dirname "$0")
 source ../config.sh
 
 # Temp paths and files
-export SRC_PKG="https://mirrors.mediatemple.net/debian-archive/debian/pool/main/s/syslinux/syslinux-common_4.05%2Bdfsg-6%2Bdeb7u1_all.deb"
+export SRC_PKG="http://ftp.us.debian.org/debian/pool/main/s/syslinux/syslinux-common_6.04~git20190206.bf6db5b4+dfsg1-3_all.deb"
 export TRG_NME="syslinux"
 export TRG_PKG=$TRG_NME".deb"
 
